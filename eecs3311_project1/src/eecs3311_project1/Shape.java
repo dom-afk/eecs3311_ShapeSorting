@@ -10,7 +10,6 @@ public abstract class Shape {
 	protected int upperY;
 	protected int width;
 	protected int height;
-	protected Color shapeColor;
 	
 	public Shape() {
 	}
