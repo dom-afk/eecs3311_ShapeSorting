@@ -5,7 +5,7 @@ import java.awt.Graphics;
 
 public class Circle extends Shape implements Comparable<Shape>{
 
-	double radius;
+	protected double radius;
 	
 	public Circle(int width, Color color){
 		super.width = width ;
@@ -14,7 +14,7 @@ public class Circle extends Shape implements Comparable<Shape>{
 		super.color = color;
 	}
 
-	public  void drawShape(Graphics	form) {
+	protected void drawShape(Graphics	form) {
 		form.fillOval(super.upperX, super.upperY, width , width);
 	}
 

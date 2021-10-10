@@ -13,7 +13,7 @@ public class Square extends Shape implements Comparable<Shape>{
 		
 	}		
 	
-	public void drawShape(Graphics	form) {
+	protected void drawShape(Graphics	form) {
 		form.fillRect(upperX, upperY, width, width);
 	}
 	

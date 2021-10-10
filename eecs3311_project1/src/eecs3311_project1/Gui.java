@@ -7,15 +7,15 @@ import java.util.ArrayList;
 public class Gui extends JPanel implements ActionListener {
 
 	private static final long serialVersionUID = 1L;
-	JPanel panel ;
-	JFrame frame ; 
-	JButton loadButton ;
-	JButton sortButton;
-	ShapeFactory shapeFactory;
-	Shape shape;
-	ArrayList<Shape> shapeList= new ArrayList<Shape>();;
-	static int shapeCount = 6;
-	static int OFFSET= 60;
+	protected JPanel panel ;
+	protected JFrame frame ; 
+	protected JButton loadButton ;
+	protected JButton sortButton;
+	protected ShapeFactory shapeFactory;
+	protected Shape shape;
+	protected ArrayList<Shape> shapeList= new ArrayList<Shape>();;
+	protected static int shapeCount = 6;
+	protected static int OFFSET= 60;
 
 	
 	public Gui() {

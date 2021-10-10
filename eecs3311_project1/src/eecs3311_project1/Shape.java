@@ -4,8 +4,8 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public abstract class Shape {
-	double area;
-	Color color;
+	protected double area;
+	protected Color color;
 	protected int upperX; 
 	protected int upperY;
 	protected int width;

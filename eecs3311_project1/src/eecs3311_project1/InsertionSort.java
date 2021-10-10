@@ -7,7 +7,8 @@ public class InsertionSort {
 	public InsertionSort(ArrayList<Shape> shapes) {
 
 		Shape key;
-		int i,j;
+		int i;
+		int j;
 		
 		for (j = 1 ; j < shapes.size(); j++) {
 			key = shapes.get(j); 

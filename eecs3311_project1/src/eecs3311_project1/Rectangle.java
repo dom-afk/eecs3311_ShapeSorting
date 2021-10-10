@@ -12,7 +12,7 @@ public class Rectangle extends Shape implements Comparable<Shape> {
 		super.area = width * height;
 	}
 
-	public  void drawShape(Graphics	form) {
+	protected void drawShape(Graphics form) {
 		form.fillRect(upperX, upperY, width, height);
 	}
 

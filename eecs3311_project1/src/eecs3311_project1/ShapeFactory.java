@@ -5,10 +5,10 @@ import java.util.Random;
 
 public class ShapeFactory {
 
-	static int maxSizeDifference = 50; //pixels
-	static int minSize = 10; 
-	Color color;
-	Random rand;
+	protected static int maxSizeDifference = 50; //pixels
+	protected static int minSize = 10; 
+	protected Color color;
+	protected Random rand;
 	   
 	   public Shape getRandomShape() {
 		   rand = new Random();
